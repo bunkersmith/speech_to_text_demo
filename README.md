@@ -1,16 +1,8 @@
 # speech_to_text_demo
 
-A new Flutter project.
 
-## Getting Started
+A small project demonstrating how to use the speech_to_text package. Recognized text is shown in a TextField.
 
-This project is a starting point for a Flutter application.
+Works on both Android and iOS, but has an Android UI style.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Recognizes text in the language of the current locale only. The speech_to_text package does have a locale option.
